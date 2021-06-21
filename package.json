@@ -1,0 +1,29 @@
+{ 
+  "project-name": "webview",
+  "project-type": "webview",
+  "name": "myapp",
+   "app-name":"myapp",
+   "package-name":"mypkg",
+   "icon":"./assets/icon/icon.png",
+   "permission":["android.permission.INTERNET" 
+          ],
+  "version": "1.0.0",
+  "dist-path": "./dist",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "theme": {
+    "fullScreen": false,
+    "colorAccent": "#FF0000",
+    "colorPrimary": "#00FF00",
+    "colorPrimaryDark": "#FFFFFF"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "androidjs": "^1.0.6"
+  }
+}
